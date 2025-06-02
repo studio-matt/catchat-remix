@@ -1,0 +1,466 @@
+{
+  "nodes": [
+    {
+      "id": "src/screens/Frame/Frame.tsx",
+      "label": "Frame",
+      "routes": [
+        "/"
+      ],
+      "dataModelId": "1:4",
+      "isRoot": true
+    },
+    {
+      "id": "src/screens/ChatHistory/ChatHistory.tsx",
+      "label": "ChatHistory",
+      "routes": [
+        "/chat-history"
+      ]
+    },
+    {
+      "id": "src/screens/Settings/Settings.tsx",
+      "label": "Settings",
+      "routes": [
+        "/settings"
+      ]
+    },
+    {
+      "id": "src/screens/Pricing/Pricing.tsx",
+      "label": "Pricing",
+      "routes": [
+        "/pricing"
+      ]
+    },
+    {
+      "id": "src/screens/Conversation/Conversation.tsx",
+      "label": "Conversation",
+      "routes": [
+        "/conversation/:id"
+      ]
+    },
+    {
+      "id": "src/screens/ExamplePrompts/ExamplePrompts.tsx",
+      "label": "ExamplePrompts",
+      "routes": [
+        "/example-prompts"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:124:31-to-src/screens/Pricing/Pricing.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Pricing/Pricing.tsx",
+      "data": {
+        "viaRoute": "/pricing",
+        "trigger": {
+          "element": "navigate(\"/pricing\")",
+          "line": 124,
+          "endLine": 124,
+          "column": 31,
+          "endColumn": 51,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:138:27-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 138,
+          "endLine": 138,
+          "column": 27,
+          "endColumn": 48,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:144:78-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 144,
+          "endLine": 144,
+          "column": 78,
+          "endColumn": 99,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:152:80-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 152,
+          "endLine": 152,
+          "column": 80,
+          "endColumn": 101,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:124:31-to-src/screens/Pricing/Pricing.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Pricing/Pricing.tsx",
+      "data": {
+        "viaRoute": "/pricing",
+        "trigger": {
+          "element": "navigate(\"/pricing\")",
+          "line": 124,
+          "endLine": 124,
+          "column": 31,
+          "endColumn": 51,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:138:27-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 138,
+          "endLine": 138,
+          "column": 27,
+          "endColumn": 48,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:144:78-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 144,
+          "endLine": 144,
+          "column": 78,
+          "endColumn": 99,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:152:80-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 152,
+          "endLine": 152,
+          "column": 80,
+          "endColumn": 101,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Settings/Settings.tsx:61:33-to-src/screens/Pricing/Pricing.tsx",
+      "source": "src/screens/Settings/Settings.tsx",
+      "target": "src/screens/Pricing/Pricing.tsx",
+      "data": {
+        "viaRoute": "/pricing",
+        "trigger": {
+          "element": "navigate(\"/pricing\")",
+          "line": 61,
+          "endLine": 61,
+          "column": 33,
+          "endColumn": 53,
+          "sourceFile": "src/screens/Settings/Settings.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:124:31-to-src/screens/Pricing/Pricing.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Pricing/Pricing.tsx",
+      "data": {
+        "viaRoute": "/pricing",
+        "trigger": {
+          "element": "navigate(\"/pricing\")",
+          "line": 124,
+          "endLine": 124,
+          "column": 31,
+          "endColumn": 51,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:138:27-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 138,
+          "endLine": 138,
+          "column": 27,
+          "endColumn": 48,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:144:78-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 144,
+          "endLine": 144,
+          "column": 78,
+          "endColumn": 99,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:152:80-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 152,
+          "endLine": 152,
+          "column": 80,
+          "endColumn": 101,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:124:31-to-src/screens/Pricing/Pricing.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Pricing/Pricing.tsx",
+      "data": {
+        "viaRoute": "/pricing",
+        "trigger": {
+          "element": "navigate(\"/pricing\")",
+          "line": 124,
+          "endLine": 124,
+          "column": 31,
+          "endColumn": 51,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:138:27-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 138,
+          "endLine": 138,
+          "column": 27,
+          "endColumn": 48,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:144:78-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 144,
+          "endLine": 144,
+          "column": 78,
+          "endColumn": 99,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:152:80-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 152,
+          "endLine": 152,
+          "column": 80,
+          "endColumn": 101,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Conversation/Conversation.tsx:17:12-to-src/screens/ChatHistory/ChatHistory.tsx",
+      "source": "src/screens/Conversation/Conversation.tsx",
+      "target": "src/screens/ChatHistory/ChatHistory.tsx",
+      "data": {
+        "viaRoute": "/chat-history",
+        "trigger": {
+          "element": "<Link \n              to=\"/chat-history\" \n              className=\"flex items-center text-[#6c44c6] hover:underline mb-2\"\n            >\n              <ArrowLeft className=\"w-4 h-4 mr-1\" />\n              Back to Chats\n            </Link>",
+          "line": 17,
+          "endLine": 23,
+          "column": 12,
+          "endColumn": 19,
+          "sourceFile": "src/screens/Conversation/Conversation.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:124:31-to-src/screens/Pricing/Pricing.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Pricing/Pricing.tsx",
+      "data": {
+        "viaRoute": "/pricing",
+        "trigger": {
+          "element": "navigate(\"/pricing\")",
+          "line": 124,
+          "endLine": 124,
+          "column": 31,
+          "endColumn": 51,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:138:27-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 138,
+          "endLine": 138,
+          "column": 27,
+          "endColumn": 48,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:144:78-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 144,
+          "endLine": 144,
+          "column": 78,
+          "endColumn": 99,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:152:80-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 152,
+          "endLine": 152,
+          "column": 80,
+          "endColumn": 101,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:124:31-to-src/screens/Pricing/Pricing.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Pricing/Pricing.tsx",
+      "data": {
+        "viaRoute": "/pricing",
+        "trigger": {
+          "element": "navigate(\"/pricing\")",
+          "line": 124,
+          "endLine": 124,
+          "column": 31,
+          "endColumn": 51,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:138:27-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 138,
+          "endLine": 138,
+          "column": 27,
+          "endColumn": 48,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:144:78-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 144,
+          "endLine": 144,
+          "column": 78,
+          "endColumn": 99,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx:152:80-to-src/screens/Settings/Settings.tsx",
+      "source": "src/screens/Frame/Frame.tsx",
+      "target": "src/screens/Settings/Settings.tsx",
+      "data": {
+        "viaRoute": "/settings",
+        "trigger": {
+          "element": "navigate(\"/settings\")",
+          "line": 152,
+          "endLine": 152,
+          "column": 80,
+          "endColumn": 101,
+          "sourceFile": "src/screens/Frame/sections/SideBarSection/SideBarSection.tsx"
+        }
+      }
+    }
+  ]
+}
